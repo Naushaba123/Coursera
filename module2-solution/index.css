@@ -1,0 +1,39 @@
+@media(min-width: 992px) {
+	.cd-lg{
+		width:33.33%;
+		border: 1px;
+		padding: 10px;
+		background-color: red;
+		margin: 10px;
+		float:left;
+		border-style: dashed;
+	}
+}
+@media(min-width: 768px)and (max-width: 991) {
+
+	.cd-md{
+		width: 50%;
+		border: 1px;
+		background-color: red;
+		margin: 10px;
+		padding: 10px;
+		border-style: dashed;
+		float:right;
+	}
+
+}
+@media(min-width: 767) {
+	.cd-sm{
+		width: 100%;
+		margin: 10px;
+		padding: 10px;
+		background-color: red;
+		border-style: dashed;
+		border: 1px;
+	}
+	
+}
+
+body{
+	background-color: blue;
+}
