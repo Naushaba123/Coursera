@@ -1,12 +1,15 @@
+
 * {
   box-sizing: border-box;
 }
+
 @media(min-width: 992px) {
 	.cd-lg{
 		width:33.33%;
 		border: 1px;
 		padding: 10px;
 		background-color: red;
+
 		font-family: Helvetica;
 		float:left;
 		border-style: dashed;
