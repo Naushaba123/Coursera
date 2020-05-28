@@ -10,14 +10,13 @@ h1{
     text-align: center;
     color: black;
 }
-h2{
-    background-color: brown;
-}
+
 section {
 	float:left;
     border: 1px solid black;
     background-color: #b5c4d2;
 	margin: 10px;
+    padding:10px;
 }
 section>h2{
 	float: right;
@@ -30,13 +29,11 @@ section>h2{
 section.lebesgue>h2 {
     background-color: #76b8db;
 }
-@media(min-width: 992px) {
-	.cd-lg-1,.cd-lg-2,.cd-lg-3,.cd-lg-4,.cd-lg-5,.cd-lg-6,.cd-lg-7,.cd-lg-8,.cd-lg-9,.cd-lg-10,.cd-lg-11,.cd-lg-12{
-		
-		
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
         float: left;
-	}
-	.col-lg-1 {
+    }
+    .col-lg-1 {
         width: 8.33%;
     }
     .col-lg-2 {
@@ -74,12 +71,12 @@ section.lebesgue>h2 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991) {
-	.cd-md-1,.cd-md-2,.cd-md-3,.cd-md-4,.cd-md-5,.cd-md-6,.cd-md-7,.cd-md-8,.cd-md-9,.cd-md-10,.cd-md-11,.cd-md-12{
-		
-		float: left;
-	}
-	.col-md-1 {
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
         width: 8.33%;
     }
     .col-md-2 {
@@ -115,15 +112,15 @@ section.lebesgue>h2 {
     .col-md-12 {
         width: 100%;
     }
-	
-
 }
-@media (max-width: 767) {
-	.cd-sm-1,.cd-sm-2,.cd-sm-3,.cd-sm-4,.cd-sm-5,.cd-sm-6,.cd-sm-7,.cd-sm-8,.cd-sm-9,.cd-sm-10,.cd-sm-11,.cd-sm-12{
-		
-		float: left;
-	}
-	.col-sm-1 {
+
+
+
+@media (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-1 {
         width: 8.33%;
     }
     .col-sm-2 {
@@ -144,7 +141,7 @@ section.lebesgue>h2 {
     .col-sm-7 {
         width: 58.33%;
     }
-    .col-md-8 {
+    .col-sm-8 {
         width: 66.66%;
     }
     .col-sm-9 {
@@ -159,8 +156,6 @@ section.lebesgue>h2 {
     .col-sm-12 {
         width: 100%;
     }
-	
-}
 .row{
     width: 100%;
 }
