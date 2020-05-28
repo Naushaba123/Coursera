@@ -20,6 +20,7 @@ section>h2{
 	float: right;
 	border-left: solid;
 	border-bottom: solid;
+    margin: 0;
 	background-color: yellow;
 	width: 25%;
 }
