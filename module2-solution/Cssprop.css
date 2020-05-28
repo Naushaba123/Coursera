@@ -10,7 +10,9 @@ h1{
     text-align: center;
     color: black;
 }
-
+h2{
+    background-color: #76b8db
+}
 section {
 	float:left;
     border: 1px solid black;
@@ -26,19 +28,9 @@ section>h2{
 	background-color: yellow;
 	width: 25%;
 }
-section.lebesgue>h2 {
-    background-color: #76b8db;
-}
-section.fubini>h2 {
-    background-color: #76b8db;
-}
-section.luzin>h2 {
-    background-color: #76b8db;
-}
-/*
-*/
+
 @media (min-width: 992px) {
-	.cd-lg-1,.cd-lg-2,.cd-lg-3,.cd-lg-4,.cd-lg-5,.cd-lg-6,.cd-lg-7,.cd-lg-8,.cd-lg-9,.cd-lg-10,.cd-lg-11,.cd-lg-12{
+	.cd-lg-1, .cd-lg-2, .cd-lg-3, .cd-lg-4, .cd-lg-5, .cd-lg-6, .cd-lg-7, .cd-lg-8, .cd-lg-9, .cd-lg-10, .cd-lg-11, .cd-lg-12{
 		
 		
         float: left;
@@ -82,7 +74,7 @@ section.luzin>h2 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.cd-md-1,.cd-md-2,.cd-md-3,.cd-md-4,.cd-md-5,.cd-md-6,.cd-md-7,.cd-md-8,.cd-md-9,.cd-md-10,.cd-md-11,.cd-md-12{
+	.cd-md-1, .cd-md-2, .cd-md-3, .cd-md-4, .cd-md-5, .cd-md-6, .cd-md-7, .cd-md-8, .cd-md-9, .cd-md-10, .cd-md-11, .cd-md-12{
 		
 		float: left;
 	}
@@ -125,8 +117,8 @@ section.luzin>h2 {
 	
 
 }
-@media (max-width: 767px) {
-	.cd-sm-1,.cd-sm-2,.cd-sm-3,.cd-sm-4,.cd-sm-5,.cd-sm-6,.cd-sm-7,.cd-sm-8,.cd-sm-9,.cd-sm-10,.cd-sm-11,.cd-sm-12{
+@media (max-width: 767) {
+	.cd-sm-1, .cd-sm-2, .cd-sm-3, .cd-sm-4, .cd-sm-5, .cd-sm-6, .cd-sm-7, .cd-sm-8, .cd-sm-9, .cd-sm-10, .cd-sm-11, .cd-sm-12{
 		
 		float: left;
 	}
