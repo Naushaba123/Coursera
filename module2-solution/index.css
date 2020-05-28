@@ -29,7 +29,7 @@
 	}
 
 }
-@media (min-width: 767) {
+@media (max-width: 767) {
 	.cd-sm{
 		width: 100%;
 		margin: 10px;
