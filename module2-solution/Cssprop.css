@@ -10,6 +10,9 @@ h1{
     text-align: center;
     color: black;
 }
+h2{
+    background-color: brown;
+}
 section {
 	float:left;
     border: 1px solid black;
