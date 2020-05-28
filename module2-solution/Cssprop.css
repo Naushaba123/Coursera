@@ -23,6 +23,9 @@ section>h2{
 	background-color: yellow;
 	width: 25%;
 }
+section.lebesgue>h2 {
+    background-color: #76b8db;
+}
 @media(min-width: 992px) {
 	.cd-lg-1,.cd-lg-2,.cd-lg-3,.cd-lg-4,.cd-lg-5,.cd-lg-6,.cd-lg-7,.cd-lg-8,.cd-lg-9,.cd-lg-10,.cd-lg-11,.cd-lg-12{
 		
