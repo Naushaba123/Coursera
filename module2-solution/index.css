@@ -15,7 +15,7 @@
 		border-style: dashed;
 	}
 }
-@media(min-width: 768px)and (max-width: 991) {
+@media (min-width: 768px) and (max-width: 991) {
 
 	.cd-md{
 		width: 50%;
@@ -29,7 +29,7 @@
 	}
 
 }
-@media(min-width: 767) {
+@media (min-width: 767) {
 	.cd-sm{
 		width: 100%;
 		margin: 10px;
